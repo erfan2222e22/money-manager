@@ -1,1 +1,1 @@
-this money manager web creat with css javascript and html 
+This money manager project is made using html css and javascript
