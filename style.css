@@ -1,0 +1,187 @@
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.calculater-inventory {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 4%;
+    margin-left: 60%;
+}
+
+.balance {
+
+    width: 200px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    left: 127px;
+    top: -370px;
+}
+
+.history-amont-or-costs {
+    position: relative;
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    top: 53%;
+    border-radius: 25px;
+    left: 1%;
+}
+
+.modify_history_i {
+    background-color: #767474;
+    top: 20%;
+    display: none;
+    height: 300px;
+    width: 509px;
+    position: relative;
+    left: 22%;
+    border-radius: 25px;
+}
+
+#i_close {
+    color: white;
+    border: none;
+    position: absolute;
+    top: 10px;
+}
+
+.modify_history_i.btn-income {
+    background-color: #1be3c2;
+}
+
+#calculater-inventory_id {
+
+    position: absolute;
+    right: 27%;
+    text-align: center;
+    top: 20px;
+}
+
+.delte_history {
+
+    position: absolute;
+    left: 77%;
+    top: 72%;
+
+}
+
+.note_p {
+    bottom: 75px;
+    left: 30%;
+}
+
+.inventory-p {
+    left: 70%;
+    bottom: 40px;
+}
+
+.date_p {
+    left: 10px;
+}
+
+.material-icons {
+    left: 90%;
+    width: 27px;
+    height: 27 px;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-size: x-large;
+    cursor: pointer;
+    margin: 10px;
+    bottom: 127px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: rgb(209, 203, 203);
+
+}
+
+input {
+    border-radius: 10px;
+    width: 200px;
+}
+
+.hederr {
+    background-color: #3f51b5;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-size: 10px;
+    color: white;
+}
+
+.moneymangment {
+    left: 10%;
+}
+
+.history {
+    bottom: 240px;
+    cursor: pointer;
+    left: 200px;
+
+}
+
+.balance_title {
+    color: rgb(0, 0, 0);
+    bottom: 45%;
+    left: 360px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#icon_balnce1,
+#icon_balnce2 {
+
+    color: black;
+    border: none;
+    font-size: 0;
+    bottom: 54%;
+    left: 33%;
+    width: 0;
+    height: 0;
+
+}
+
+#down_i_history,
+#right_i_history {
+
+    color: black;
+    height: 0;
+    left: 17%;
+    width: 0;
+    font-size: 0;
+    bottom: 300px;
+    border: none;
+
+
+}

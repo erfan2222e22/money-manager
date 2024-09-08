@@ -1,0 +1,75 @@
+<html lang="en" dir="auto">
+
+<head>
+  <title>money mangment</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div class="hederr">
+    <h1 class="moneymangment">money mangment</h1>
+  </div>
+
+  <div class="history-amont-or-costs">
+    <p class="date_p">date:</p>
+    <p class="inventory-p">inventory</p>
+    <p class="note_p">note:</p>
+    <i class="material-icons">edit</i>
+  </div> -
+
+  <div class="calculater-inventory">
+
+    <button class="btn-income">income</button>
+    <button class="btn-costs">costs</button>
+    <button class="btn-costs-estimate">Import costs</button>
+    <input class="amount-costs" type="number" min="0.01" step="0.01" placeholder="مقدار هزینه" value="0">
+    <input class="forwhat-costs" type="text" placeholder="note">
+  </div>
+
+  <h1 class="balance_title">balance</h1>
+  <i id="icon_balnce1" class="material-icons">arrow_drop_down</i>
+  <i id="icon_balnce2" class="material-icons">arrow_right</i>
+
+
+  <div class="balance">
+    <input class="input_balance" type="number" placeholder="enter yo balance">
+    <p class="balance-walet">Account balance</p>
+    <p class="remaining">remaining</p>
+  </div>
+
+  <div class="history_h1">
+
+    <h1 class="history">history</h1>
+    <i id="down_i_history" class="material-icons">arrow_drop_down</i>
+    <i id="right_i_history" class="material-icons">arrow_right</i>
+
+  </div>
+  
+  <div class="modify_history_i">
+
+    <div id="calculater-inventory_id" class="calculater-inventory">
+
+      <button id="income_id" class="btn-income">income</button>
+      <button id="costs_id" class="btn-costs">costs</button>
+      <button id="save changes" class="btn-costs-estimate">save changes</button>
+      <input id="amount_Costs" class="amount-costs" type="number" min="0.01" step="0.01" placeholder="مقدار هزینه "
+        value="0">
+      <input id="forwhat_cost" class="forwhat-costs" type="text" placeholder="note">
+
+    </div>
+
+    <i class="material-icons" id="i_close">close</i>
+    <button id="delte_history" class="delte_history">delte</button>
+
+  </div>
+
+</body>
+
+</html>
+
+<script src="javascript.js"></script>
+
+
+
